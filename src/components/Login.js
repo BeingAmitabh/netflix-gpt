@@ -11,7 +11,7 @@ import { addUser } from "../utils/userSlice";
 const Login = () => {
   const [isSignInForm, setIsSignInForm] = useState("true");
   const [errorMessage, setErrorMessage] = useState("");
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
   const dispatch = useDispatch();
 
   const name = useRef(null);
@@ -37,7 +37,7 @@ const Login = () => {
           }).then(() => {
             const { uid, email, displayname , photoURL} = auth.currentUser;
             dispatch(addUser({ uid: uid, email: email, displayname: displayname, photoURL: photoURL }));
-            navigate("/browse");
+            // navigate("/browse");
           }).catch((error) => {
             setErrorMessage(errorMessage);
           });
@@ -54,7 +54,7 @@ const Login = () => {
         password.current.value,)
         .then((userCredential) => {
           const user = userCredential.user;
-          navigate("/browse");
+          // navigate("/browse");
         })
         .catch((error) => {
           const errorCode = error.code;

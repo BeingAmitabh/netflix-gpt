@@ -16,3 +16,17 @@
    -Implemented sign Out feature
    -update profile
    -Fetch movie from TMDB
+   -BugFix - sign up user and display name and profile picture update
+   -BugFix - if the user is not loggedin redirect/ browser to login page and vice-versa
+   -Unsubscribe to the onAuthStateChange callback
+   -Add hardcoded values to the constant files.
+   -Register TNDB API & create an app& get access token
+   -Get Data from TNBD now playing Movies list API
+   -Custom hook for now playing movies
+   -create movieSlice
+   -Update store with movies Data
+   -Planing for main container and secondary container
+   -fetch data from trailer video
+   -update store with taiolor video data
+   -Embedded the youtube video and make it autoplay and auto
+   -Tailwind classes to make container look awesome

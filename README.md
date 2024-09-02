@@ -30,3 +30,9 @@
    -update store with taiolor video data
    -Embedded the youtube video and make it autoplay and auto
    -Tailwind classes to make container look awesome
+   -Buil Secondary Component 
+   -Build Movie List
+   -Build Movie Card
+   -TMDB Image CDN URL
+   -Made the browser page amazing with tailwind css
+   -usePopularmovies Custom hook
